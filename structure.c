@@ -6,8 +6,7 @@ struct Student {
     float grade;
 };
 int main() {
-    int n;
-    // Ask the user for the number of students
+    int n; // n for the number of students
     printf("Enter the number of students: ");
     scanf("%d", &n);
     // Create an array of structures
@@ -22,7 +21,6 @@ int main() {
         printf("Enter grade: ");
         scanf("%f", &students[i].grade);
     }
-
     // Display student information
     printf("\nStudent Information:\n");
     for(int i = 0; i < n; i++) {
